@@ -1,4 +1,8 @@
 task :build do
-  sh "gcc hello.c -o hello"
-  sh "g++ hello-lua.cpp -o hello-lua -llua"
+  sh "gcc src/hello.c -o hello"
+  sh "g++ src/hello-lua.cpp -o hello-lua -llua"
+end
+
+task :clean do
+  sh "rm -rf hello.c hello-lua.cpp"
 end

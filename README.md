@@ -3,6 +3,6 @@
 ```
 rake build
 
-./hello # hello from C!!
-./hello-lua # hello from Lua!!
+./hello      # hello from C!!
+./hello-lua  # hello from Lua!!
 ```
